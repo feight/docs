@@ -7,8 +7,6 @@ Purchasing a subscription happens in stages:
 
 ## These APIs need to be run sequentially:
 
----
-
 ## /apiv1/user/update-address
 
     This API will update the physical address of the user.
@@ -30,8 +28,6 @@ Purchasing a subscription happens in stages:
 
 <br>
 
----
-
 ## /apiv1/user/subscribe
 
     This API will subscribe to a package in an "initialized" state.
@@ -50,8 +46,6 @@ Purchasing a subscription happens in stages:
     Indicates that this purchase is a gift. The result of the purchase will include a voucher.
 
 <br>
-
----
 
 ## /apiv1/subscriptions/create-transaction
 
